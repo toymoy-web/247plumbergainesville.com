@@ -369,3 +369,11 @@ main h2,main h3{margin-bottom:14px}
 a[href^="mailto:"],main dd,main li{overflow-wrap:anywhere}
 .hero.has-hero:before{background:linear-gradient(90deg,rgba(12,14,18,.86) 0%,rgba(12,14,18,.62) 60%,rgba(12,14,18,.36) 100%)}
 @media (max-width:900px){.hero.has-hero:before{background:linear-gradient(180deg,rgba(12,14,18,.86) 0%,rgba(12,14,18,.78) 100%)}}
+
+.footer-follow{margin-top:16px}
+.footer-follow h3{font-size:.95rem;color:#fff;margin:0 0 10px;letter-spacing:.01em}
+.footer-social{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.footer-social a{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;border:1px solid currentColor;color:inherit;text-decoration:none;transition:opacity .15s}
+.footer-social a:hover,.footer-social a:focus-visible{opacity:.75}
+.footer-social svg{width:18px;height:18px}
+.footer-social span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
